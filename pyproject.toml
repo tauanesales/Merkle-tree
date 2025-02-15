@@ -1,0 +1,17 @@
+[project]
+name = "merkle-tree"
+version = "1.0.0"
+description = "Merkle tree implementation."
+authors = [
+    {name = "Tauane Sales",email = "taysales6@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib (>=3.10.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
